@@ -1,2 +1,2 @@
 # collaborate
-elan: so smelly
+elan: so delightfully smelly

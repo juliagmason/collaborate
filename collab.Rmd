@@ -4,6 +4,24 @@ output:
   html_document:
     df_print: paged
 ---
+
+# Analysis
+
+## NYC Flight exploration
+```{r load data, message = FALSE}
+library (tidyverse)
+library (nycflights13) # install.packages("nycflights13")
+
+flights
+
+# What do the data look like on January 1st?
+
+flights %>%
+  filter (month == 1, 
+          day == 1)
+
+```
+
 ![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-2__880.jpg)
 ![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-12__880.jpg)
 # This is a dead lynx

@@ -8,7 +8,7 @@ output:
 # Analysis
 
 ## NYC Flight exploration
-```{r load data, message = FALSE}
+```{r load data, message = FALSE, warning = FALSE}
 library (tidyverse)
 library (nycflights13) # install.packages("nycflights13")
 

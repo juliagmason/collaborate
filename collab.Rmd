@@ -1,8 +1,10 @@
 ---
 title: "Collab"
-output: html_notebook
+output:
+  html_document:
+    df_print: paged
 ---
-![](https://i.ytimg.com/vi/3Dv6btEhB5k/maxresdefault.jpg)
+![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-2__880.jpg)
 ![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-12__880.jpg)
 # This is a dead lynx
 ![dead lynx](http://mountaintv.net/wp-content/uploads/2015/03/photo0052.jpg)

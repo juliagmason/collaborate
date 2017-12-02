@@ -1,9 +1,14 @@
 ---
 title: "Collab"
+#output:
+  # html_document:
+  #   df_print: paged
+    
 output:
-  html_document:
-    df_print: paged
+  ioslides_presentation:
+    keep_md: true
 ---
+
 
 # Analysis
 
@@ -21,12 +26,16 @@ flights %>%
           day == 1)
 
 ```
+# Perhaps this picture is too big
+![more applesauce??](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-2__880.jpg)
 
-![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-2__880.jpg)
+----
+
 ![](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-12__880.jpg)
+
 # This is a dead lynx
 ![dead lynx](http://mountaintv.net/wp-content/uploads/2015/03/photo0052.jpg)
-
+----
 ```{r}
 plot(cars)
 ```
@@ -36,6 +45,6 @@ plot(cars)
 
 #oh my...
 ![oh my...](https://static.boredpanda.com/blog/wp-content/uploads/2015/06/pallas-cat-manul-14__880.jpg)
-
-![](https://media1.tenor.com/images/38ac6a4ef23af8e239152c384fb9b1b2/tenor.gif?itemid=5640872)
+#Lynx again
+![maybe we need text here](https://media1.tenor.com/images/38ac6a4ef23af8e239152c384fb9b1b2/tenor.gif?itemid=5640872)
 
